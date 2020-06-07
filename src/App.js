@@ -3,7 +3,7 @@ import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import loadable from 'utils/loadable';
 
-import './App.css';
+import './App.scss';
 
 const HomePage = loadable(() => import('pages/HomePage'));
 const NotFoundPage = loadable(() => import('pages/NotFoundPage'));
